@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <div class="container" ng-controller="firstCtrl">
+        {{name}}
+    </div>
+    {{fullName}} -->
+    <div class="container">
+        <!-- <div ng-controller="firstCtrl">
+
+            fullName:{{name}} ,age: {{age}} ,place: {{place}}
+        </div>
+        <div ng-controller="secondCtrl">
+            fullName: {{fatherName}} ,age {{age}} ,place: {{place}}
+
+        </div> -->
+        <!-- <div ng-controller="firstCtrl"> -->
+        <!-- <h1>{{data[0]}}</h1>
+            <h1> {{data[1]}}</h1>
+            <h1>{{data[5]}}</h1> -->
+        <!-- <table border="1">
+                <tr>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>contact</th>
+                    <th>email</th>
+                </tr>
+                <tr ng-repeat="_data in data">
+                    <td>{{_data.name}}</td>
+                    <td>{{_data.age}}</td>
+                    <td>{{_data.contact}}</td>
+                    <td>{{_data.email}}</td>
+
+                </tr>
+            </table> -->
+        <!-- <first-directive>
+            </first-directive>
+            <div first-directive></div>
+        </div>
+        <div class="first-directive"></div> -->
+
+        <!-- </div> -->
+        <!-- <h1>
+            <input type="text" ng-bind="hello" /> {{hello}}
+        </h1>
+        <h1>
+            <input type="text" ng-model="hello1" /> {{hello1}}
+        </h1> -->
+        <div ng-app="" ng-init="mySwitch=true">
+            <p>
+                <button ng-disabled="mySwitch">Click Me!</button>
+            </p>
+            <p>
+                <input type="checkbox" ng-model="mySwitch" />Button
+            </p>
+            <p>
+                {{ mySwitch }}
+            </p>
+        </div>
+        <div ng-app="">
+            <p ng-show="true">this is visible</p>
+            <p ng-show="true">this is hide</p>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/all.js"></script>
+
+
+</body>
+
+</html>
